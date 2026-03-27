@@ -22,7 +22,7 @@ console.log(vSoma);
 // Condição da subtração.
 let vSub = sub <= 0 ? 'A subtração é menor que 0' : 'A subtração é maior que 0';
 // Multiplicação
-let vMult = mult <= 1000000 ? 'Tua multiplicação é menor q 1000000' : 'A tua multiplicação é maior q 1000000'
+let vMult = mult == 17888640 ? 'Tua multiplicação é exatamente 17888640' : 'Tua multiplicação não é exatamente 17888640'
 console.log(vMult);
 // Divisão
 let vDiv = div <= 100 ? 'A sua divisão é menor que 100' : 'A sua divisão é maior que 100'
